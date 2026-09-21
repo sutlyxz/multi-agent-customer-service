@@ -7,7 +7,7 @@ from pathlib import Path
 from sqlite3 import Connection
 
 
-DEFAULT_DB_PATH = Path(__file__).resolve().parent.parent / "customer_service.db"
+DEFAULT_DB_PATH = Path(__file__).resolve().parent / "customer_service.db"
 
 
 class DatabaseError(RuntimeError):
